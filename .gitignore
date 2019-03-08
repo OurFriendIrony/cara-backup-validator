@@ -1,0 +1,13 @@
+# Python
+*.pyc
+.pytest_cache/
+
+# Vim
+*.swp
+
+# Intellij
+.idea
+
+# Project Output
+logs/
+.coverage
