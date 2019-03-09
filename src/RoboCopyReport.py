@@ -10,8 +10,6 @@ FMT_DT = '%a %b %d %H:%M:%S %Y'
 
 
 def _regex_it(string, regex, group=1):
-    print regex
-    print string
     return re.search(regex, string) \
         .group(group) \
         .lstrip().rstrip()
@@ -40,3 +38,6 @@ class RoboCopyReport(object):
 
     def get_failed_files(self):
         return self.failed_files
+
+    def has_failed(self):
+        return self.failed_dirs + self.failed_files > 0

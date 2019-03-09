@@ -37,3 +37,17 @@ class TestRoboCopyReport:
         expected = 5
 
         assert actual == expected
+
+    def test_can_get_failed_true(self):
+        raw_report = open(path.join(dir_path, "_test_files", "failed_true")).read()
+
+        actual = RoboCopyReport(raw_report)
+
+        assert actual.has_failed() == True
+
+    def test_can_get_failed_false(self):
+        raw_report = open(path.join(dir_path, "_test_files", "failed_false")).read()
+
+        actual = RoboCopyReport(raw_report)
+
+        assert actual.has_failed() == False
