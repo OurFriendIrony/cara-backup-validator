@@ -39,7 +39,7 @@ HTML_TABLE_CSS = "table, th, td {border: 0.2px solid black;}"
 
 DATE_FMT = "%d/%m/%y"
 
-DEFAULT_PATH = os.path.dirname(__file__).rsplit('/', 1)[0]
+DEFAULT_PATH = os.path.realpath(os.path.dirname(os.path.dirname(__file__)))
 DEFAULT_DATE = dt.now().strftime(DATE_FMT)
 
 FILES_MATCHING = r'.*.txt'
