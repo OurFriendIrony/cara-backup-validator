@@ -1,0 +1,31 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows     ::     Version XP010
+-------------------------------------------------------------------------------
+
+  Started : Fri Mar 08 07:35:00 2019
+
+   Source : \\gposql2\f$\SQLBackups\
+     Dest : E:\Shares\GPOSQL2_Backups\TRNLogs\impresario\
+
+    Files : *.trn
+	    
+  Options : /NDL /NFL /S /E /COPY:DATS /PURGE /MIR /NP /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+	  *EXTRA File 		  405504	E:\Shares\GPOSQL2_Backups\TRNLogs\impresario\impresario_backup_2019_03_05_071501_4281749.trn
+	  *EXTRA File 		  245760	E:\Shares\GPOSQL2_Backups\TRNLogs\impresario\impresario_backup_2019_03_05_073001_8075271.trn
+
+------------------------------------------------------------------------------
+
+                Total    Copied   Skipped  Mismatch    FAILED    Extras
+     Dirs :         1         0         1         0         0         0
+    Files :       174         1       173         0         0         2
+    Bytes :  411.04 m   164.0 k  410.88 m         0         0   636.0 k
+    Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+    Speed :             5417290 Bytes/sec.
+    Speed :             309.979 MegaBytes/min.
+
+    Ended : Fri Mar 08 07:35:00 2019

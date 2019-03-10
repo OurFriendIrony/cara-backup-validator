@@ -11,3 +11,5 @@
 # Project Output
 logs/
 .coverage
+out/*
+**/index.html
