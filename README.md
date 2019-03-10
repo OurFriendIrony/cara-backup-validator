@@ -11,8 +11,8 @@
 ## Directions for use  
 ### Windows
 * Copy the following to the backup reports directory
-* * `src\`
-* * `_run.bat`
+  * `src\`
+  * `_run.bat`
 * Execute the `_run.bat` file.
 * Follow instructions
   
